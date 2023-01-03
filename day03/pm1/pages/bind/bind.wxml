@@ -1,0 +1,8 @@
+<!--pages/bind/bind.wxml-->
+<navigator url="/pages/home/home" open-type="navigateBack">返回</navigator>
+<button type="primary" bindtap="homeBcak">返回上一级</button>
+<button bindtap="conutAdd">count+1</button>
+<view>count的值是{{count}}</view>
+<view style="height: 1000px;background-color: skyblue;">
+  
+</view>

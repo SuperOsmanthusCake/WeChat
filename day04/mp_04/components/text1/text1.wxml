@@ -1,0 +1,7 @@
+<!--components/text1/text1.wxml-->
+<view style=" height: 100rpx; color: aqua; text-align: center; line-height: 100rpx;  background-color: rgb({{fullColor}});">
+  {{fullColor}}
+</view>
+<button bindtap="changeR" size="mini" style="background-color: #ff0000;">R</button>
+<button bindtap="changeG" size="mini" style="background-color: #00ff00;">G</button>
+<button bindtap="changeB" size="mini" style="background-color: #0000ff;">B</button>

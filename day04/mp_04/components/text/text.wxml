@@ -1,0 +1,12 @@
+<!--components/text/text.wxml-->
+<text class="item-red">components/text/text.wxml</text>
+<view>count的值是{{count}}</view>
+<button bindtap="countAdd">+1</button>
+<button bindtap="showInfo">showInfo</button>
+<view>max的值{{max}}</view>
+<view>sum的值为{{sum}}</view>
+<view>n1的值为{{n1}}</view>
+<view>n2的值为{{n2}}</view>
+<view>{{n1}} + {{n2}} = {{sum}}</view>
+<button bindtap="n1Add">n1 +1</button>
+<button bindtap="n2Add">n2 +1</button>

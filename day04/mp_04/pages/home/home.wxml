@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<!-- <van-button type="primary">按钮</van-button>
+<my-text1></my-text1> -->
+<view>父组件的值：{{count}}</view>
+<my-text3 count="{{count}}" bind:sync="syncCount"></my-text3>
+

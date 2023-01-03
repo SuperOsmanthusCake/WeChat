@@ -1,0 +1,7 @@
+<!--components/text3/text3.wxml-->
+<text>components/text3/text3.wxml</text>
+<view>子组件的值：{{count}}</view>
+<button size="mini" bindtap="countAdd">+1</button>
+<view>
+  在name中定义的是{{name}}
+</view>

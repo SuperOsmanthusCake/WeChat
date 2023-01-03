@@ -1,0 +1,4 @@
+<!--pages/message/message.wxml-->
+<text class="item-red">pages/message/message.wxml</text>
+<view></view>
+<my-text  max="8"></my-text>

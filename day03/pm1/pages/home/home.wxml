@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<navigator url="/pages/message/message" open-type="switchTab">声明式导航：到消息TAB</navigator>
+<navigator url="/pages/bind/bind?name='zs'&age=20" open-type="navigate">声明式：导航到bind页面</navigator>
+<button type="primary" bindtap="navigationTab">编程式导航：到消息TAB</button>
+<button type="primary" bindtap="navigationDind">编程式导航：导航到bind页面</button>
